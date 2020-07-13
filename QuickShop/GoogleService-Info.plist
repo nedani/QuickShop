@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>288217184840-ee6dqdujp461tcq31brp3r1a23amciti.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.288217184840-ee6dqdujp461tcq31brp3r1a23amciti</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAua1IUkRrXIAnZjCUxzKUBbRyq24TIehs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>288217184840</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.neda.QuickShop</string>
+	<key>PROJECT_ID</key>
+	<string>quickshop-32737</string>
+	<key>STORAGE_BUCKET</key>
+	<string>quickshop-32737.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:288217184840:ios:c1027b346fd3ea2cc5767d</string>
+	<key>DATABASE_URL</key>
+	<string>https://quickshop-32737.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Quick-2" translatesAutoresizingMaskIntoConstraints="NO" id="yUy-er-kGe">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oe7-GC-LpZ">
+                                <rect key="frame" x="107" y="448" width="200" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="iKF-sx-ciU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Shop" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEA-PW-rG3">
+                                <rect key="frame" x="80" y="422" width="254" height="52"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="41"/>
+                                <color key="textColor" name="color-blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yUy-er-kGe" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7pm-ws-YRG"/>
+                            <constraint firstItem="oe7-GC-LpZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8T3-mz-nJD"/>
+                            <constraint firstItem="yUy-er-kGe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TnL-7L-jwE"/>
+                            <constraint firstItem="yUy-er-kGe" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="a3h-A9-QA3"/>
+                            <constraint firstItem="tEA-PW-rG3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="c1S-HV-404"/>
+                            <constraint firstItem="tEA-PW-rG3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mbN-PG-JSm"/>
+                            <constraint firstItem="oe7-GC-LpZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vkb-Ok-8wc"/>
+                            <constraint firstAttribute="bottom" secondItem="yUy-er-kGe" secondAttribute="bottom" id="wcq-WS-pvW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Quick-2" width="500" height="500"/>
+        <namedColor name="color-blue">
+            <color red="0.10588235294117647" green="0.42352941176470588" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
